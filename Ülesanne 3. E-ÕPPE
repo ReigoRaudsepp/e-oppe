@@ -1,0 +1,4 @@
+a = "Tere" # a on Tere
+b = "Tore" # b on Tore
+lause = a * 3 + "\\" + b # kleebitakse lause kokku
+print(lause) # print käsklus kus prinditakse lause välja

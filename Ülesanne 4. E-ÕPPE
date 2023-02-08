@@ -1,0 +1,2 @@
+nimi = "loomariik" # nimi on loomariik
+print(nimi[0] + nimi[-1]) # siin võetakse loomariik järjendi numbrid 0 ja -1

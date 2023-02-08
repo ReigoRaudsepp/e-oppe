@@ -1,0 +1,5 @@
+b = "'Tere!'" # b-le võrdub 'Tere'
+c = '"Head aega!"' # c-le võrdub "Head aega!"
+print(b) # print käsklus, mis prindib 'Tere!'
+print("\n") # print käsklus, mis jätab ühe rea vahele
+print(c) # print käsklus, mis prindib "Head aega!"

@@ -1,0 +1,3 @@
+nimi1 = "Paide" # nimi1 on Paide
+nimi2 = "Türi" # nimi2 on Türi
+print("Tere,"[0],nimi1[-5],nimi2,"!") # print käsk kus võetakse järjendi numbri järgi tähed ja siis kleebitakse need

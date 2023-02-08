@@ -1,0 +1,5 @@
+a = 1 # muutuja a väärtuseks 1
+b = "a\n" # muutuja b väärtuseks on a ja \n tuleb uus rida
+while a < 3: # while tsükkel, kui a on väiksed kui kolm
+    print(b) # siis ta prindib b
+    a += 1 # siin lisatakse a-le juurde peale igat välja printimist
