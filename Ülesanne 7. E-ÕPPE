@@ -1,0 +1,3 @@
+a = 10 # a väärtuseks on 10
+b = 2 # b väärtuseks on 2
+print(a > b) # print käsklus, mis võrdleb kas a on suurem kui b ja siis väljastab True

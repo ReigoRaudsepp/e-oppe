@@ -1,0 +1,5 @@
+a = "A" # a on A
+b = 1 # b väärtus on 1
+while b < 3: # while tsükkel, kui b on väiksem kui kolm,
+    print(a,end=" ") # print käsklus kus prinditakse a ja tühik siis veel 1 korra a ja tühik
+    b += 1 # iga print käskluse järgi läheb b 1 võrra suuremaks

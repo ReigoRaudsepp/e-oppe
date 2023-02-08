@@ -1,0 +1,4 @@
+a = 10 # a väärtuseks on 10
+b = 2 # b väärtuseks on 2
+print(a != b and b > 10) # print käsklus kus võrreldakse a ja b
+print(b == a or a >= 0) #  print käsklus kus võrreldakse a ja b
