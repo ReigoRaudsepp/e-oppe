@@ -1,0 +1,12 @@
+from tkinter import* # sisestatakse tkinter
+raam = Tk() # tkinteri akna loomine
+raam.title("Tühi tahvel") # Akna nimi on tühi tahvel
+tahvel = Canvas(raam, width=600)# määratakse akna suurus
+
+tahvel.create_rectangle(50,70,100,100, width=2, outline="blue") # Tehakse sinine ristkülik
+tahvel.create_text(50,50, text="Tere!") # tehakse tekst Tere!
+
+tahvel.create_polygon(100,100,150,150,200,100, fill="red", outline="black") # Tehakse must kolmnurk mis on seest punane
+
+tahvel.pack() # paneb tahvli akna sisse
+raam.mainloop() # Jookseb akna peal töötavat tsüklit, mis võimaldab akent muuta
